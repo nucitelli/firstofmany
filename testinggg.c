@@ -5,7 +5,9 @@ int main(){
 
 #include <locale.h>
 setlocale(LC_ALL, "Portuguese");
-float sim, nao, soma;
+int hein;
+float areusure;
+
     printf("olá, Garça. vamos aprender programação C. got that?\n");
     printf("Garça says: hmmm interesting...\n");
     printf("-------------\n");
@@ -13,11 +15,9 @@ float sim, nao, soma;
     printf("-------------\n");
     printf("should Garça learn all these things?\n");
 
-    printf("sim / não: ");
-  scanf("%f", &sim);
+    printf("sim ou não? hein: ");
+  scanf("%d", &hein);
 
-  printf("are u sure?: ");
-  scanf("%f", &nao);
-
-  printf("its Garça decision btw");
+  printf("---------------------\n"
+         "its Garça decision btw");
 }
